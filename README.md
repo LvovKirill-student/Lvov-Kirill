@@ -1,2 +1,0 @@
-# Lvov-Kirill
-HomeWork3
