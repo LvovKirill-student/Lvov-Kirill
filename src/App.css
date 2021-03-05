@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MainScreen {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.navigator {
+  background-color: lightgray;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard {
+  background-color: lightskyblue;
+  flex: 3;
+}
+
+.exit {
+  display: block;
+  position: absolute;
+  left: 93%;
+}
+
+.information {
+  position: absolute;
+  top: 45%;
+  left: 62%;
+  margin-right: -74%;
+  transform: translate(-51%, -20%);
+  font-size: xx-large;
+}
+
+.form-log {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  margin-right: -69%;
+  transform: translate(-55%, -20%);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
